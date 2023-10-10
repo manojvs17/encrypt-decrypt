@@ -80,7 +80,7 @@ const Decrypt = () => {
     <div className='p-1 flex flex-col justify-center items-center gap-5'>
 
       <div className='flex flex-col justify-center items-center gap-4'>
-        <h1 className='font-bold text-[2.4em] text-[green] text-center animate__animated animate__headShake md:text-[3em]'>Decryption</h1>
+        <h1 className='font-bold font-inter text-[2.4em] text-[green] text-center animate__animated animate__headShake md:text-[3em]'>Decryption</h1>
         <p className='font-inter text-[1.2em] text-center md:text-[1.6em]'>Paste the Encrypted message in the box and click decrypt to get the decrypted message</p>
       </div>
 
