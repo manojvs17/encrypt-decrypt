@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque&family=Inter&family=Poppins:wght@400;600&family=Vollkorn:wght@600&display=swap');
+
+.font-poppins{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.font-inter{
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Bricolage Grotesque', sans-serif;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Vollkorn', serif;
+}
+
+                                                    /* Button Animation */
+.btn {
+        width: 6.5em;
+        height: 2.3em;
+        margin: 0.5em;
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 0.625em;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+}
+.btn:hover {color: black;}
+       
+.btn:after {
+        content: "";
+        background: white;
+        position: absolute;
+        z-index: -1;
+        left: -20%;
+        right: -20%;
+        top: 0;
+        bottom: 0;
+        transform: skewX(-45deg) scale(0, 1);
+        transition: all 0.5s;
+}
+       
+.btn:hover:after {
+        transform: skewX(-45deg) scale(1, 1);
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+}
+
+/* Box Shadow */
+.boxTopShadow{
+        box-shadow: 0 -20px 25px -5px rgb(0 0 0 / 0.1), 0 -8px 10px -6px rgb(0 0 0 / 0.1);
+}
